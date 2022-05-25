@@ -1,0 +1,56 @@
+.root{
+    -fx-background-color: black;
+}
+#upperpane{
+    -fx-background-color: beige;
+}
+#back{
+    -fx-background-color: tan;
+    -fx-font-family: "Lucida Console";
+    -fx-font-size: 14;
+}
+#noofelements{
+    -fx-font-family: "Lucida Console";
+    -fx-background-color: tan;
+
+    -fx-prompt-text-fill: black;
+    -fx-font-size: 14;
+}
+#custominput{
+    -fx-background-color: tan;
+    -fx-font-family: "Lucida Console";
+    -fx-font-size: 14;
+}
+#randominput{
+    -fx-background-color: tan;
+    -fx-font-family: "Lucida Console";
+    -fx-font-size: 14;
+}
+#shuffle{
+    -fx-background-color: tan;
+    -fx-font-family: "Lucida Console";
+    -fx-font-size: 14;
+}
+#sort{
+    -fx-background-color: tan;
+    -fx-font-family: "Lucida Console";
+    -fx-font-size: 14;
+}
+#pause{
+    -fx-background-color: tan;
+    -fx-font-family: "Lucida Console";
+    -fx-font-size: 14;
+}
+#sortingmethods{
+    -fx-background-color: tan;
+    -fx-font-size: 14;
+}
+#Speed{
+    -fx-background-color: tan;
+    -fx-font-size: 14;
+}
+#lable{
+
+    -fx-font-family: "Lucida Console";
+    -fx-font-size: 20;
+}

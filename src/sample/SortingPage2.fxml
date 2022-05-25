@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" stylesheets="@SortingPage.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SortingPage">
+   <children>
+      <AnchorPane fx:id="upperpane" layoutX="-184.0" prefHeight="947.0" prefWidth="422.0">
+         <children>
+            <TextField fx:id="noofelements" layoutX="239.0" layoutY="79.0" onAction="#setNoofelements" prefHeight="46.0" prefWidth="124.0" promptText="Element Number" />
+            <Button fx:id="custominput" layoutX="238.0" layoutY="176.0" mnemonicParsing="false" onAction="#CustomButtonAction" prefHeight="46.0" prefWidth="124.0" text="Custom Input" />
+            <Button fx:id="randominput" layoutX="241.0" layoutY="271.0" mnemonicParsing="false" onAction="#randominputpressed" prefHeight="46.0" prefWidth="124.0" text="Random Input" />
+            <ChoiceBox fx:id="sortingmethods" layoutX="232.0" layoutY="367.0" prefHeight="46.0" prefWidth="150.0" />
+            <ChoiceBox fx:id="Speed" layoutX="232.0" layoutY="465.0" prefHeight="46.0" prefWidth="150.0" />
+            <Button fx:id="sort" layoutX="255.0" layoutY="564.0" mnemonicParsing="false" onAction="#sortButtonAction" prefHeight="46.0" prefWidth="92.0" text="Sort" />
+            <Button fx:id="pause" layoutX="255.0" layoutY="653.0" mnemonicParsing="false" onAction="#pauseButtonAction" prefHeight="46.0" prefWidth="92.0" text="Pause" />
+         </children>
+      </AnchorPane>
+      <Pane fx:id="sortingpane" layoutX="258.0" layoutY="100.0" prefHeight="578.0" prefWidth="1242.0" />
+      <Button fx:id="back" layoutX="1408.0" layoutY="29.0" mnemonicParsing="false" onAction="#backbuttonPressed" prefHeight="39.0" prefWidth="92.0" text="Back" />
+      <Label fx:id="lable" contentDisplay="CENTER" layoutX="258.0" layoutY="694.0" prefHeight="104.0" prefWidth="1242.0" />
+   </children>
+</AnchorPane>

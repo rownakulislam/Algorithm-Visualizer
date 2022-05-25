@@ -1,0 +1,63 @@
+.root{
+    -fx-background-color: black;
+}
+#sidepane{
+    -fx-background-color: beige;
+}
+#back{
+    -fx-background-color: tan;
+    -fx-font-size: 15;
+    -fx-font-family: "Lucida Console";
+}
+#noofelements{
+    -fx-background-color: tan;
+    -fx-font-style: black;
+    -fx-prompt-text-fill: black;
+    -fx-font-size: 15;
+    -fx-font-family: "Lucida Console";
+}
+#randominput{
+    -fx-background-color: tan;
+    -fx-font-size: 15;
+    -fx-font-family: "Lucida Console";
+}
+#custominput{
+    -fx-background-color: tan;
+    -fx-font-size: 15;
+    -fx-font-family: "Lucida Console";
+}
+#searchingelement{
+    -fx-background-color: tan;
+    -fx-font-style: black;
+    -fx-prompt-text-fill: black;
+    -fx-font-size: 15;
+    -fx-font-family: "Lucida Console";
+}
+#binarysearch{
+    -fx-background-color: tan;
+    -fx-font-size: 15;
+    -fx-font-family: "Lucida Console";
+}
+#linearsearch{
+    -fx-background-color: tan;
+    -fx-font-size: 15;
+    -fx-font-family: "Lucida Console";
+}
+#clear{
+    -fx-background-color: tan;
+    -fx-font-size: 15;
+    -fx-font-family: "Lucida Console";
+}
+#arrayholder{
+    //-fx-background-color: white;
+}
+#msg{
+    -fx-font-size: 20;
+    -fx-font-family: "Lucida Console";
+    -fx-text-fill: beige  ;
+}
+#msg1{
+    -fx-font-size: 20;
+    -fx-font-family: "Lucida Console";
+    -fx-text-fill: beige  ;
+}

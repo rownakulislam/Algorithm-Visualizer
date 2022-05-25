@@ -1,0 +1,39 @@
+#pane{
+    -fx-background-color: black;
+}
+#search{
+    -fx-background-color: tan;
+    -fx-font-family: "Lucida Console";
+    -fx-font-size: 40;
+    -fx-background-radius: 40;
+}
+#sort{
+    -fx-background-color: tan;
+    -fx-font-family: "Lucida Console";
+    -fx-font-size: 40;
+    -fx-background-radius: 40;
+}
+#search:hover{
+    -fx-background-color: beige;
+    -fx-font-family: "Lucida Console";
+    -fx-font-size: 50;
+    -fx-background-radius: 70;
+}
+#sort:hover{
+    -fx-background-color: beige;
+    -fx-font-family: "Lucida Console";
+    -fx-font-size: 50;
+    -fx-background-radius: 70;
+}
+#tutorials{
+    -fx-background-color: tan;
+    -fx-font-family: "Lucida Console";
+    -fx-font-size: 40;
+    -fx-background-radius: 40;
+}
+#tutorials:hover{
+    -fx-background-color: beige;
+    -fx-font-family: "Lucida Console";
+    -fx-font-size: 50;
+    -fx-background-radius: 70;
+}

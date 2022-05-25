@@ -1,0 +1,14 @@
+#pane{
+    -fx-background-color: tan;
+}
+#lable{
+    -fx-font-family: "Lucida Console";
+}
+#TextInput{
+    -fx-background-color: beige;
+}
+#OkButton{
+    -fx-background-color: beige;
+    -fx-font-size: 15;
+    -fx-font-family: "Lucida Console";
+}

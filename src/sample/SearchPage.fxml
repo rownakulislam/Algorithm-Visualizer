@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" stylesheets="@SearchPage.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SearchPage">
+   <children>
+      <Button fx:id="back" alignment="CENTER" contentDisplay="CENTER" layoutX="1759.0" layoutY="39.0" mnemonicParsing="false" onAction="#backbuttonPressed" prefHeight="40.0" prefWidth="109.0" text="Back" AnchorPane.rightAnchor="52.0" />
+      <AnchorPane fx:id="sidepane" prefHeight="1080.0" prefWidth="814.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="1106.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button fx:id="binarysearch" layoutX="126.0" layoutY="746.0" mnemonicParsing="false" onAction="#BinarySearchButtonPressed" prefHeight="53.0" prefWidth="155.0" text="Binary Search" AnchorPane.bottomAnchor="280.4" />
+            <Button fx:id="linearsearch" layoutX="125.0" layoutY="836.0" mnemonicParsing="false" onAction="#LinearSearchButton" prefHeight="54.0" prefWidth="155.0" text="Linear Search" AnchorPane.bottomAnchor="189.60000000000002" />
+            <TextField fx:id="noofelements" alignment="CENTER" layoutX="126.0" layoutY="359.0" onAction="#SizePressed" prefHeight="54.0" prefWidth="150.0" promptText="No of elements" AnchorPane.bottomAnchor="666.6" />
+            <Button fx:id="clear" layoutX="125.0" layoutY="933.0" mnemonicParsing="false" onAction="#ClearButtonPressed" prefHeight="54.0" prefWidth="155.0" text="Clear" AnchorPane.bottomAnchor="92.60000000000002" />
+            <Button fx:id="custominput" layoutX="126.0" layoutY="455.0" mnemonicParsing="false" onAction="#InputButtonPressed" prefHeight="54.0" prefWidth="155.0" text="Custom Input" AnchorPane.bottomAnchor="570.6" />
+            <TextField fx:id="searchingelement" alignment="CENTER" layoutX="126.0" layoutY="651.0" onAction="#SearchElementPressed" prefHeight="54.0" prefWidth="155.0" promptText="Searching element" AnchorPane.bottomAnchor="374.6" />
+            <Button fx:id="randominput" layoutX="126.0" layoutY="552.0" mnemonicParsing="false" onAction="#randomPressed" prefHeight="54.0" prefWidth="155.0" text="Random Input" AnchorPane.bottomAnchor="473.6" />
+         </children></AnchorPane>
+      <AnchorPane fx:id="arrayholder" layoutX="473.0" layoutY="401.0" prefHeight="682.0" prefWidth="1448.0" />
+      <Label fx:id="msg" alignment="CENTER" layoutX="643.0" layoutY="120.0" prefHeight="98.0" prefWidth="695.0" />
+      <Label fx:id="msg1" alignment="CENTER" layoutX="643.0" layoutY="252.0" prefHeight="98.0" prefWidth="695.0" />
+   </children>
+</AnchorPane>
